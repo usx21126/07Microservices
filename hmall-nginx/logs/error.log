@@ -1,0 +1,4 @@
+2023/11/25 16:42:37 [emerg] 181004#167072: CreateFile() "E:\itcast\微服务阶段\03-微服务-01\资料\hmall-nginx/conf/nginx.conf" failed (1113: No mapping for the Unicode character exists in the target multi-byte code page)
+2024/06/04 20:53:43 [emerg] 5072#19776: CreateFile() "D:\software\versynclibrary5\01-微服务\01-MybatisPlus\资料\黑马商城\hmall-nginx/conf/nginx.conf" failed (1113: No mapping for the Unicode character exists in the target multi-byte code page)
+2025/08/01 07:18:14 [error] 24916#28240: *7 directory index of "D:\pvz\documents\07Microservices\hmall-nginx/html/hmall-admin/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:18081"
+2025/08/01 07:19:06 [error] 24916#28240: *7 directory index of "D:\pvz\documents\07Microservices\hmall-nginx/html/hmall-admin/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:18081"
