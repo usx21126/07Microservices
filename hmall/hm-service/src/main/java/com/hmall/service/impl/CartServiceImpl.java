@@ -36,7 +36,7 @@ public class CartServiceImpl extends ServiceImpl<CartMapper, Cart> implements IC
 
     @Override
     public void addItem2Cart(CartFormDTO cartFormDTO) {
-        
+
         Cart cart = lambdaQuery()
                 .eq(Cart::getItemId, cartFormDTO.getItemId())
                 .eq(Cart::getUserId, UserContext.getUser())
