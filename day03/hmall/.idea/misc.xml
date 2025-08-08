@@ -8,48 +8,5 @@
       </list>
     </option>
   </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id>Code style issuesJava</id>
-          </State>
-          <State>
-            <id>EditorConfig</id>
-          </State>
-          <State>
-            <id>HTTP Client</id>
-          </State>
-          <State>
-            <id>Internationalization</id>
-          </State>
-          <State>
-            <id>InternationalizationJava</id>
-          </State>
-          <State>
-            <id>JPA</id>
-          </State>
-          <State>
-            <id>Java</id>
-          </State>
-          <State>
-            <id>Java EE</id>
-          </State>
-          <State>
-            <id>Numeric issuesJava</id>
-          </State>
-          <State>
-            <id>Properties filesJava</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>User defined</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
-  </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK" />
 </project>

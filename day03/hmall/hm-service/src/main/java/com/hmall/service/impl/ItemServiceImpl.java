@@ -1,16 +1,11 @@
 package com.hmall.service.impl;
 
-import cn.hutool.core.util.StrUtil;
-import com.baomidou.mybatisplus.extension.conditions.query.LambdaQueryChainWrapper;
-import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.hmall.common.domain.PageDTO;
 import com.hmall.common.exception.BizIllegalException;
 import com.hmall.common.utils.BeanUtils;
 import com.hmall.domain.dto.ItemDTO;
 import com.hmall.domain.dto.OrderDetailDTO;
 import com.hmall.domain.po.Item;
-import com.hmall.domain.query.ItemPageQuery;
 import com.hmall.mapper.ItemMapper;
 import com.hmall.service.IItemService;
 import org.springframework.stereotype.Service;
@@ -48,32 +43,4 @@ public class ItemServiceImpl extends ServiceImpl<ItemMapper, Item> implements II
     public List<ItemDTO> queryItemByIds(Collection<Long> ids) {
         return BeanUtils.copyList(listByIds(ids), ItemDTO.class);
     }
-    @Override
-    public PageDTO<ItemDTO> search(ItemPageQuery query) {
-        LambdaQueryChainWrapper<Item> wrapper = lambdaQuery()
-                .like(StrUtil.isNotBlank(query.getKey()), Item::getName, query.getKey())
-                .eq(StrUtil.isNotBlank(query.getBrand()), Item::getBrand, query.getBrand())
-                .eq(StrUtil.isNotBlank(query.getCategory()), Item::getCategory, query.getCategory())
-                .ge(query.getMinPrice() != null, Item::getPrice, query.getMinPrice())
-                .le(query.getMaxPrice() != null, Item::getPrice, query.getMaxPrice());
-        if (query.getSortBy() !=null) {
-            switch (query.getSortBy()){
-                case "price":
-                    wrapper.orderBy(true, query.getIsAsc(), Item::getPrice);
-                    break;
-                case "sold":
-                    wrapper.orderBy(true, query.getIsAsc(), Item::getSold);
-                    break;
-                default:
-                    wrapper.orderBy(true, query.getIsAsc(), Item::getUpdateTime);
-                    break;
-            }
-        } else {
-            wrapper.orderBy(true, query.getIsAsc(), Item::getUpdateTime);
-        }
-        Page<Item> itemPage = wrapper.page(new Page<>(query.getPageNo(), query.getPageSize()));
-
-        return PageDTO.of(itemPage, ItemDTO.class);
-    }
-
 }
