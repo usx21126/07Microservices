@@ -3,9 +3,17 @@ server:
 feign:
   okhttp:
     enabled: true
+  sentinel:
+    enabled: true   #开启feign支持sentinel
 hm:
   db:
     database: hm-cart
   swagger:
     title: 购物车服务接口
     package: com.hmall.cart.controller
+spring:
+  cloud:
+    sentinel:
+      transport:
+        dashboard: http://localhost:8090
+      http-method-specify: true

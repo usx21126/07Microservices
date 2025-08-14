@@ -5,57 +5,60 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4854d04-e83a-4751-8717-3f1b432d92a8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/hm-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cd63574c-3762-49e5-9ab0-b1faea35231e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/cd63574c-3762-49e5-9ab0-b1faea35231e.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cart-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart-service/src/main/java/com/hmall/cart/CartApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/src/main/java/com/hmall/cart/CartApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart-service/src/main/java/com/hmall/cart/service/impl/CartServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/src/main/java/com/hmall/cart/service/impl/CartServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cart-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart-service/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cart-service/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/target/classes/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart-service/target/classes/com/hmall/cart/CartApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/target/classes/com/hmall/cart/CartApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart-service/target/classes/com/hmall/cart/service/impl/CartServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/target/classes/com/hmall/cart/service/impl/CartServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart-service/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/client/CartClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/client/CartClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/client/ItemClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/client/ItemClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/client/TradeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/client/TradeClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/client/UserClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/client/UserClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/config/DefaultFeignConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/config/DefaultFeignConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-api/target/classes/com/hmall/api/client/CartClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/hm-api/target/classes/com/hmall/api/client/CartClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-api/target/classes/com/hmall/api/client/ItemClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/hm-api/target/classes/com/hmall/api/client/ItemClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-api/target/classes/com/hmall/api/client/TradeClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/hm-api/target/classes/com/hmall/api/client/TradeClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-api/target/classes/com/hmall/api/client/UserClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/hm-api/target/classes/com/hmall/api/client/UserClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-api/target/classes/com/hmall/api/config/DefaultFeignConfig$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/hm-api/target/classes/com/hmall/api/config/DefaultFeignConfig$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hm-api/target/classes/com/hmall/api/config/DefaultFeignConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/hm-api/target/classes/com/hmall/api/config/DefaultFeignConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-common/src/main/resources/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/hm-common/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-common/target/classes/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/hm-common/target/classes/META-INF/spring.factories" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/item-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/service/impl/ItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/service/impl/ItemServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/controller/ItemController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/item-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-service/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/src/main/resources/bootstrap.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/item-service/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/target/classes/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-service/target/classes/com/hmall/item/ItemApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/target/classes/com/hmall/item/ItemApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-service/target/classes/com/hmall/item/service/impl/ItemServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/target/classes/com/hmall/item/service/impl/ItemServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-service/target/classes/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/target/classes/bootstrap.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-service/target/classes/com/hmall/item/controller/ItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/target/classes/com/hmall/item/controller/ItemController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/cart-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/cart-service/spring.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/cart-service/spring.log.2025-08-02.0.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/cart-service/spring.log.2025-08-03.0.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/cart-service/spring.log.2025-08-04.0.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/cart-service/spring.log.2025-08-05.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/cart-service/spring.log.2025-08-06.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/cart-service/spring.log.2025-08-07.0.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/item-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/item-service/spring.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/item-service/spring.log.2025-08-02.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/item-service/spring.log.2025-08-07.0.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/pay-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/pay-service/spring.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/trade-service/spring.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/user-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/user-service/spring.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/user-service/spring.log.2025-08-03.0.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/user-service/spring.log.2025-08-04.0.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/user-service/spring.log.2025-08-05.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/user-service/spring.log.2025-08-06.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/user-service/spring.log.2025-08-07.0.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pay-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pay-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pay-service/src/main/java/com/hmall/pay/PayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/pay-service/src/main/java/com/hmall/pay/PayApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pay-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pay-service/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay-service/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pay-service/src/main/resources/bootstrap.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pay-service/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pay-service/target/classes/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pay-service/target/classes/com/hmall/pay/PayApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/pay-service/target/classes/com/hmall/pay/PayApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay-service/target/classes/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pay-service/target/classes/bootstrap.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trade-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/trade-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/TradeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/TradeApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/service/impl/OrderServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trade-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/trade-service/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trade-service/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/trade-service/src/main/resources/bootstrap.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trade-service/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/trade-service/target/classes/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trade-service/target/classes/com/hmall/trade/TradeApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/trade-service/target/classes/com/hmall/trade/TradeApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trade-service/target/classes/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/trade-service/target/classes/bootstrap.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trade-service/target/classes/com/hmall/trade/service/impl/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/trade-service/target/classes/com/hmall/trade/service/impl/OrderServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/hmall/user/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hmall/user/UserApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/bootstrap.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/hmall/user/UserApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/hmall/user/UserApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/bootstrap.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -258,8 +261,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ItemApplication8181" />
         <item itemvalue="Spring Boot.ItemApplication" />
+        <item itemvalue="Spring Boot.ItemApplication8181" />
       </list>
     </recent_temporary>
   </component>
@@ -283,7 +286,8 @@
       <workItem from="1754122342536" duration="869000" />
       <workItem from="1754123222797" duration="3208000" />
       <workItem from="1754126448116" duration="36490000" />
-      <workItem from="1754998118135" duration="20719000" />
+      <workItem from="1754998118135" duration="39242000" />
+      <workItem from="1755190752826" duration="5503000" />
     </task>
     <servers />
   </component>

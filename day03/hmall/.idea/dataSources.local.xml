@@ -19,6 +19,7 @@
             <name qname="hm-trade" />
             <name qname="hm-user" />
             <name qname="nacos" />
+            <name qname="seata" />
           </node>
         </introspection-scope>
       </schema-mapping>
