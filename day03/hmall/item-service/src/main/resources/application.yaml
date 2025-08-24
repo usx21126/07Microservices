@@ -9,9 +9,3 @@ hm:
   swagger:
     title: 商品服务接口
     package: com.hmall.item.controller
-spring:
-  cloud:
-    sentinel:
-      transport:
-        dashboard: http://localhost:8090
-      http-method-specify: true
