@@ -1,10 +1,20 @@
 package com.itheima.publisher.amqp;
 
 import org.junit.jupiter.api.Test;
+import org.springframework.amqp.AmqpException;
+import org.springframework.amqp.core.Message;
+import org.springframework.amqp.core.MessageBuilder;
+import org.springframework.amqp.core.MessageDeliveryMode;
+import org.springframework.amqp.core.MessagePostProcessor;
+import org.springframework.amqp.rabbit.connection.CorrelationData;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.util.concurrent.ListenableFutureCallback;
 
+import java.nio.charset.StandardCharsets;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -123,4 +133,99 @@ public class SpringAmpqTest {
         rabbitTemplate.convertAndSend(queueName,map);
     }
 
+    @Test
+    public void testPublisherReturnAndConfirm(){
+        String exchangeName = "hmall.direct123";
+        String message = "hello i am xh ~";
+
+        CorrelationData correlationData = new CorrelationData();
+        correlationData.getFuture().addCallback(new ListenableFutureCallback<CorrelationData.Confirm>() {
+            @Override
+            public void onFailure(Throwable ex) {
+                System.out.println("ConfirmCallback-----消息发送失败！"+ex.getMessage());
+            }
+
+            @Override
+            public void onSuccess(CorrelationData.Confirm result) {
+                if(result.isAck()){
+                    System.out.println("ConfirmCallback-----消息发送成功！");
+                }else{
+                    System.out.println("ConfirmCallback-----消息发送失败！"+result.getReason());
+                }
+            }
+        });
+        rabbitTemplate.convertAndSend(exchangeName,"xxx",message,correlationData);
+    }
+
+    @Test
+    public void testLazyQueue() throws InterruptedException {
+        Message message = MessageBuilder.withBody("hello,lazy queue!".getBytes(StandardCharsets.UTF_8))
+                .setDeliveryMode(MessageDeliveryMode.NON_PERSISTENT)
+                .build();
+        for (int i = 0; i < 1000000; i++) {
+            rabbitTemplate.send("lazy.queue2",message);
+            Thread.sleep(1000);
+        }
+    }
+
+    /*
+    发送simple.queue2消息
+     */
+    @Test
+    public void testSimpleQueue2(){
+        String queueName = "simple.queue2";
+        String message = "hello,simple.queue2!";
+        rabbitTemplate.convertAndSend(queueName,message);
+    }
+
+    /*
+    发送延迟5s的消息到simple.direct
+     */
+    @Test
+    public void testSimpleQueue2Delay() throws InterruptedException {
+        String queueName = "simple.direct";
+        String message = "hello,simple.queue2!";
+        System.out.println("发送时间"+ LocalDateTime.now());
+        rabbitTemplate.convertAndSend(queueName,"",message, new MessagePostProcessor() {
+            @Override
+            public Message postProcessMessage(Message message) throws AmqpException {
+                message.getMessageProperties().setExpiration("5000");
+                return message;
+            }
+        });
+    }
+
+    /**
+     * 测试发送消息到ttl.fanout
+     */
+    @Test
+    public void testTtlFanout(){
+        String exchangeName = "ttl.fanout";
+        String message = "hello,ttl.fanout!";
+        System.out.println("发送时间"+ LocalTime.now());
+        rabbitTemplate.convertAndSend(exchangeName, "blue", message, new MessagePostProcessor() {
+            @Override
+            public Message postProcessMessage(Message message) throws AmqpException {
+                message.getMessageProperties().setExpiration("5000");
+                return message;
+            }
+        });
+    }
+
+    /**
+     * 发送延迟5s的消息到delay.direct,路由key为delay
+     */
+    @Test
+    public void testDelayQueue() throws InterruptedException {
+        String queueName = "delay.direct";
+        String message = "hello,delay.direct!--使用插件版本";
+        System.out.println("发送时间"+ LocalTime.now());
+        rabbitTemplate.convertAndSend(queueName,"delay",message, new MessagePostProcessor() {
+            @Override
+            public Message postProcessMessage(Message message) throws AmqpException {
+                message.getMessageProperties().setDelay(5000);
+                return message;
+            }
+        });
+    }
 }

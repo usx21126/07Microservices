@@ -11,3 +11,10 @@ spring:
     listener:
       simple:
         prefetch: 1 # 每次从队列中获取消息的个数
+        acknowledge-mode: auto # 消息确认模式。默认是自动确认auto，不确认 none, 手动确认 manual
+        retry:
+          enabled: true
+          max-attempts: 3 # 最大重试次数
+          initial-interval: 1000 # 重试间隔时间
+          multiplier: 1 # 重试间隔时间倍数；下次等待时长 = 上次重试间隔时间（initial-interval） * multiplier
+          stateless: true # 是否为无状态的，即重试时会重新获取一次连接；如果包含事务则为 false

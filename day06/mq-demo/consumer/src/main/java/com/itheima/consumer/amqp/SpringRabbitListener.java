@@ -3,10 +3,8 @@ package com.itheima.consumer.amqp;
 import lombok.Value;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.core.ExchangeTypes;
-import org.springframework.amqp.rabbit.annotation.Exchange;
-import org.springframework.amqp.rabbit.annotation.Queue;
-import org.springframework.amqp.rabbit.annotation.QueueBinding;
-import org.springframework.amqp.rabbit.annotation.RabbitListener;
+import org.springframework.amqp.rabbit.annotation.*;
+import org.springframework.amqp.support.converter.MessageConversionException;
 import org.springframework.stereotype.Component;
 
 import java.time.LocalTime;
@@ -76,14 +74,14 @@ public class SpringRabbitListener {
     /*
     监听 direct.queue1 队列的消息
      */
-    @RabbitListener(bindings = @QueueBinding(
-            value = @Queue(name = "direct.queue1",durable = "true"),
-            exchange = @Exchange(name = "hmall.direct",type = ExchangeTypes.DIRECT),
-            key = {"blue","red"}
-    ))
-    public void listenDirectQueue1(String msg) {
-        System.out.println("消费者1接收到消息: "+msg);
-    }
+//    @RabbitListener(bindings = @QueueBinding(
+//            value = @Queue(name = "direct.queue1",durable = "true"),
+//            exchange = @Exchange(name = "hmall.direct",type = ExchangeTypes.DIRECT),
+//            key = {"blue","red"}
+//    ))
+//    public void listenDirectQueue1(String msg) {
+//        System.out.println("消费者1接收到消息: "+msg);
+//    }
 
     /*
     监听 direct.queue2 队列的消息
@@ -129,5 +127,68 @@ public class SpringRabbitListener {
     @RabbitListener(queues = "object.queue")
     public void listenObjectQueue(Map<String,Object> map){
         System.out.println("消费者接收到消息: "+map);
+    }
+
+
+    /*
+    监听 lazy.queue2 队列的消息
+     */
+    @RabbitListener(bindings = @QueueBinding(
+            value = @Queue(name = "lazy.queue2",durable = "true",arguments = @Argument(name = "x-queue-mode", value = "lazy")),
+            exchange = @Exchange(name = "hmall.lazy",type = ExchangeTypes.TOPIC),
+            key = "red"
+    ))
+    public void listenLazyQueue(String message){
+        System.out.println("消费者接收到消息: "+message);
+    }
+
+
+    /*
+    利用@RabbitListener注解，可以监听到对应队列的消息
+    一旦监听的队列有消息，就会回调当前方法，在方法中接收消息并消费处理消息
+     */
+//    @RabbitListener(queues = "simple.queue2")
+//    public void listenSimpleQueueMessage(String message) throws Exception {
+//        System.out.println("SpringRabbitListener listenSimpleQueueMessage 消费者接收到消息: " + message);
+//
+//        //故意抛出消息转换异常 - reject
+////        throw new MessageConversionException("故意抛出！消息转换异常");
+//        //故意抛出其他异常 - nack :业务异常，将会重发
+//        throw new RuntimeException("故意抛出！异常");
+//    }
+
+    /*
+    接收dlx.queue队列消息
+     */
+    @RabbitListener(queues = "dlx.queue")
+    public void listenDlxQueue(String message) {
+        System.out.println("当前时间：" + LocalTime.now());
+        System.out.println("SpringRabbitListener listenDlxQueue 监听dlx.queue队列消息: " + message);
+    }
+
+        /*
+    监听 direct.queue1 队列的消息
+     */
+    @RabbitListener(bindings = @QueueBinding(
+            value = @Queue(name = "direct.queue1",durable = "true"),
+            exchange = @Exchange(name = "hmall.direct",type = ExchangeTypes.DIRECT),
+            key = "blue"
+    ))
+    public void listenDirectQueue1(String msg) {
+        System.out.println("消费者1接收到消息: "+msg);
+        System.out.println("当前时间：" + LocalTime.now());
+    }
+
+    /**
+     * 接收delay.queue的消息
+     */
+    @RabbitListener(bindings = @QueueBinding(
+            value = @Queue(name = "delay.queue",durable = "true"),
+            exchange = @Exchange(name = "delay.direct",delayed = "true"),
+            key = "delay"
+    ))
+    public void listenDelayQueue(String message) throws Exception {
+        System.out.println("当前时间：" + LocalTime.now());
+        System.out.println("SpringRabbitListener listenDelayQueue 监听delay.queue队列消息: " + message);
     }
 }

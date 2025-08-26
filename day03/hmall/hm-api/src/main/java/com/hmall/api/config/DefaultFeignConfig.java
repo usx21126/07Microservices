@@ -3,10 +3,7 @@ package com.hmall.api.config;
 import com.hmall.api.client.ItemClient;
 import com.hmall.api.client.TradeClient;
 import com.hmall.api.client.UserClient;
-import com.hmall.api.fallback.CartClientFallback;
-import com.hmall.api.fallback.ItemClientFallback;
-import com.hmall.api.fallback.TradeClientFallback;
-import com.hmall.api.fallback.UserClientFallback;
+import com.hmall.api.fallback.*;
 import com.hmall.common.utils.UserContext;
 import feign.Logger;
 import feign.RequestInterceptor;
@@ -30,6 +27,11 @@ public class DefaultFeignConfig {
     @Bean
     public UserClientFallback userClient(){
         return new UserClientFallback();
+    }
+
+    @Bean
+    public PayClientFallback payClientFallback(){
+        return new PayClientFallback();
     }
     //定义feign请求拦截器，设置用户信息
     @Bean
