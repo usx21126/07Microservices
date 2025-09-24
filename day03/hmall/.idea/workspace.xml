@@ -5,47 +5,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4854d04-e83a-4751-8717-3f1b432d92a8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/config/DefaultFeignConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/config/DefaultFeignConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-api/target/classes/com/hmall/api/config/DefaultFeignConfig$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/hm-api/target/classes/com/hmall/api/config/DefaultFeignConfig$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-api/target/classes/com/hmall/api/config/DefaultFeignConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/hm-api/target/classes/com/hmall/api/config/DefaultFeignConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hm-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-common/src/main/resources/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/hm-common/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-common/target/classes/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/hm-common/target/classes/META-INF/spring.factories" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/item-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-service/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/src/main/resources/bootstrap.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-service/target/classes/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/target/classes/bootstrap.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/cart-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/cart-service/spring.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/cart-service/spring.log.2025-08-17.0.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/cart-service/spring.log.2025-08-18.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/cart-service/spring.log.2025-08-19.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/cart-service/spring.log.2025-08-20.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/cart-service/spring.log.2025-08-21.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/cart-service/spring.log.2025-08-22.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/cart-service/spring.log.2025-08-23.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/cart-service/spring.log.2025-08-24.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/cart-service/spring.log.2025-08-25.0.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/item-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/item-service/spring.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/item-service/spring.log.2025-08-23.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/item-service/spring.log.2025-08-25.0.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/pay-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/pay-service/spring.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/pay-service/spring.log.2025-08-17.0.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/pay-service/spring.log.2025-08-18.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/pay-service/spring.log.2025-08-19.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/pay-service/spring.log.2025-08-20.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/pay-service/spring.log.2025-08-21.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/pay-service/spring.log.2025-08-22.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/pay-service/spring.log.2025-08-23.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/pay-service/spring.log.2025-08-24.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/pay-service/spring.log.2025-08-25.0.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/trade-service/spring.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-08-17.0.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-08-18.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-08-19.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-08-20.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-08-21.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-08-22.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-08-23.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-08-24.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-08-25.0.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/user-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/user-service/spring.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/user-service/spring.log.2025-08-17.0.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/user-service/spring.log.2025-08-18.0.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pay-service/src/main/java/com/hmall/pay/controller/PayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pay-service/src/main/java/com/hmall/pay/controller/PayController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pay-service/target/classes/com/hmall/pay/controller/PayController.class" beforeDir="false" afterPath="$PROJECT_DIR$/pay-service/target/classes/com/hmall/pay/controller/PayController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/service/IOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/service/IOrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/trade-service/src/main/java/com/hmall/trade/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trade-service/target/classes/com/hmall/trade/service/IOrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/trade-service/target/classes/com/hmall/trade/service/IOrderService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trade-service/target/classes/com/hmall/trade/service/impl/OrderServiceImpl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/trade-service/target/classes/com/hmall/trade/service/impl/OrderServiceImpl$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trade-service/target/classes/com/hmall/trade/service/impl/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/trade-service/target/classes/com/hmall/trade/service/impl/OrderServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/bootstrap.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/bootstrap.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day06/mq-demo/consumer/src/main/java/com/itheima/consumer/amqp/SpringRabbitListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../day06/mq-demo/consumer/src/main/java/com/itheima/consumer/amqp/SpringRabbitListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day06/mq-demo/consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day06/mq-demo/consumer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day06/mq-demo/consumer/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day06/mq-demo/consumer/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day06/mq-demo/consumer/target/classes/com/itheima/consumer/amqp/SpringRabbitListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../day06/mq-demo/consumer/target/classes/com/itheima/consumer/amqp/SpringRabbitListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day06/mq-demo/publisher/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day06/mq-demo/publisher/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day06/mq-demo/publisher/src/test/java/com/itheima/publisher/amqp/SpringAmpqTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../day06/mq-demo/publisher/src/test/java/com/itheima/publisher/amqp/SpringAmpqTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day06/mq-demo/publisher/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day06/mq-demo/publisher/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day06/mq-demo/publisher/target/test-classes/com/itheima/publisher/amqp/SpringAmpqTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../day06/mq-demo/publisher/target/test-classes/com/itheima/publisher/amqp/SpringAmpqTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/user-service/spring.log.2025-08-19.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/user-service/spring.log.2025-08-20.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/user-service/spring.log.2025-08-21.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/user-service/spring.log.2025-08-22.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/user-service/spring.log.2025-08-23.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/user-service/spring.log.2025-08-24.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/user-service/spring.log.2025-08-25.0.gz" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +52,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -77,57 +74,66 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JBLSPRINGBOOTAPP.CB_APP_CONFIG&quot;: &quot;true&quot;,
-    &quot;JBLSPRINGBOOTAPP.CB_DELETE_FILE&quot;: &quot;false&quot;,
-    &quot;JBLSPRINGBOOTAPP.CB_FEIGN_CLIENTS&quot;: &quot;false&quot;,
-    &quot;JBLSPRINGBOOTAPP.CB_GEN_PACKAGE&quot;: &quot;false&quot;,
-    &quot;JBLSPRINGBOOTAPP.CB_MAPPER_SCAN&quot;: &quot;false&quot;,
-    &quot;JBLSPRINGBOOTAPP.CB_RESOURCES&quot;: &quot;false&quot;,
-    &quot;JBLSPRINGBOOTAPP.CB_START&quot;: &quot;true&quot;,
-    &quot;JBLSPRINGBOOTAPP.TF_DELETE_FILE&quot;: &quot;App.java,AppTest.java&quot;,
-    &quot;JBLSPRINGBOOTAPP.TF_FEIGN_CLIENTS_PACKAGE&quot;: &quot;com.hmall.api.client&quot;,
-    &quot;JBLSPRINGBOOTAPP.TF_GEN_PACKAGE&quot;: &quot;controller,service,mapper,domain.dto,domain.vo,domain.po&quot;,
-    &quot;JBLSPRINGBOOTAPPGEN.APPNAME&quot;: &quot;com.hmall.gateway.GatewayApplication&quot;,
-    &quot;Maven.hmall [clean].executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;Spring Boot.CartApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;Spring Boot.GatewayApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;Spring Boot.HMallApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.ItemApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;Spring Boot.ItemApplication8181.executor&quot;: &quot;Debug&quot;,
-    &quot;Spring Boot.PayApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;Spring Boot.TradeApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;Spring Boot.UserApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/pvz/documents/07Microservices/day03/hmall&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/pvz/documents/07Microservices/day03/hmall/item-service/src/main/java/com/heima/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JBLSPRINGBOOTAPP.CB_APP_CONFIG": "true",
+    "JBLSPRINGBOOTAPP.CB_DELETE_FILE": "false",
+    "JBLSPRINGBOOTAPP.CB_FEIGN_CLIENTS": "false",
+    "JBLSPRINGBOOTAPP.CB_GEN_PACKAGE": "false",
+    "JBLSPRINGBOOTAPP.CB_MAPPER_SCAN": "false",
+    "JBLSPRINGBOOTAPP.CB_RESOURCES": "false",
+    "JBLSPRINGBOOTAPP.CB_START": "true",
+    "JBLSPRINGBOOTAPP.TF_DELETE_FILE": "App.java,AppTest.java",
+    "JBLSPRINGBOOTAPP.TF_FEIGN_CLIENTS_PACKAGE": "com.hmall.api.client",
+    "JBLSPRINGBOOTAPP.TF_GEN_PACKAGE": "controller,service,mapper,domain.dto,domain.vo,domain.po",
+    "JBLSPRINGBOOTAPPGEN.APPNAME": "com.hmall.gateway.GatewayApplication",
+    "JUnit.DocumentTest.testCreateIndex.executor": "Run",
+    "JUnit.DocumentTest.testDeleteDocumentById.executor": "Run",
+    "JUnit.DocumentTest.testGetDocumentById.executor": "Run",
+    "JUnit.DocumentTest.testUpdateDocumentById.executor": "Run",
+    "JUnit.IndexTest.createIndex.executor": "Run",
+    "JUnit.IndexTest.executor": "Run",
+    "JUnit.IndexTest.testDeleteIndex.executor": "Run",
+    "JUnit.IndexTest.testExistsIndex.executor": "Run",
+    "JUnit.IndexTest.testImportItem.executor": "Run",
+    "Maven.hmall [clean].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.CartApplication.executor": "Run",
+    "Spring Boot.GatewayApplication.executor": "Run",
+    "Spring Boot.HMallApplication.executor": "Run",
+    "Spring Boot.ItemApplication.executor": "Run",
+    "Spring Boot.ItemApplication8181.executor": "Debug",
+    "Spring Boot.PayApplication.executor": "Run",
+    "Spring Boot.TradeApplication.executor": "Run",
+    "Spring Boot.UserApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/pvz/documents/07Microservices/day03/hmall",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/pvz/documents/07Microservices/day03/hmall/item-service/src/main/java/com/heima/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql_aurora&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql_aurora"
     ]
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -156,19 +162,72 @@
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
-    <option name="hiddenConfigurations">
-      <map>
-        <entry key="SpringBootApplicationConfigurationType">
-          <value>
-            <set>
-              <option value="HMallApplication" />
-            </set>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ItemApplication">
+  <component name="RunManager" selected="JUnit.IndexTest.testImportItem">
+    <configuration name="DocumentTest.testDeleteDocumentById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="item-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hmall.item.es.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hmall.item.es" />
+      <option name="MAIN_CLASS_NAME" value="com.hmall.item.es.DocumentTest" />
+      <option name="METHOD_NAME" value="testDeleteDocumentById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DocumentTest.testGetDocumentById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="item-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hmall.item.es.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hmall.item.es" />
+      <option name="MAIN_CLASS_NAME" value="com.hmall.item.es.DocumentTest" />
+      <option name="METHOD_NAME" value="testGetDocumentById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DocumentTest.testUpdateDocumentById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="item-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hmall.item.es.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hmall.item.es" />
+      <option name="MAIN_CLASS_NAME" value="com.hmall.item.es.DocumentTest" />
+      <option name="METHOD_NAME" value="testUpdateDocumentById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IndexTest.testImportItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="item-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hmall.item.es.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hmall.item.es" />
+      <option name="MAIN_CLASS_NAME" value="com.hmall.item.es.IndexTest" />
+      <option name="METHOD_NAME" value="testImportItem" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="ACTIVE_PROFILES" value="local" />
       <module name="cart-service" />
@@ -184,37 +243,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HMallApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <option name="ALTERNATIVE_JRE_PATH" value="11" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <module name="hm-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hmall.HMallApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ItemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
-      <option name="ACTIVE_PROFILES" value="local" />
+    <configuration name="ItemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="item-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hmall.item.ItemApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hmall.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ItemApplication8181" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
-      <option name="ACTIVE_PROFILES" value="local" />
-      <module name="item-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hmall.item.ItemApplication" />
-      <option name="VM_PARAMETERS" value="-Dserver.port=8181" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hmall.*" />
+          <option name="PATTERN" value="com.hmall.item.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -248,8 +282,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IndexTest.testImportItem" />
         <item itemvalue="Spring Boot.ItemApplication" />
-        <item itemvalue="Spring Boot.ItemApplication8181" />
+        <item itemvalue="JUnit.DocumentTest.testDeleteDocumentById" />
+        <item itemvalue="JUnit.DocumentTest.testUpdateDocumentById" />
+        <item itemvalue="JUnit.DocumentTest.testGetDocumentById" />
       </list>
     </recent_temporary>
   </component>
@@ -281,7 +318,10 @@
       <workItem from="1756008618645" duration="9314000" />
       <workItem from="1756102001358" duration="3088000" />
       <workItem from="1756112836771" duration="14204000" />
-      <workItem from="1756169875567" duration="298000" />
+      <workItem from="1756169875567" duration="5919000" />
+      <workItem from="1757308855663" duration="25733000" />
+      <workItem from="1758682774909" duration="455000" />
+      <workItem from="1758683244111" duration="6049000" />
     </task>
     <servers />
   </component>
