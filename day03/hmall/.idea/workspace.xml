@@ -5,12 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4854d04-e83a-4751-8717-3f1b432d92a8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/search-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/client/ItemClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/client/ItemClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/dto/ItemDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/dto/ItemDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/fallback/ItemClientFallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/fallback/ItemClientFallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-api/target/classes/com/hmall/api/client/ItemClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/hm-api/target/classes/com/hmall/api/client/ItemClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-api/target/classes/com/hmall/api/dto/ItemDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/hm-api/target/classes/com/hmall/api/dto/ItemDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-api/target/classes/com/hmall/api/fallback/ItemClientFallback$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/hm-api/target/classes/com/hmall/api/fallback/ItemClientFallback$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-common/src/main/java/com/hmall/common/constants/MqConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-common/src/main/java/com/hmall/common/constants/MqConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-common/target/classes/com/hmall/common/constants/MqConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/hm-common/target/classes/com/hmall/common/constants/MqConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hm-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hm-gateway/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/controller/ItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/controller/SearchController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/domain/dto/ItemDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/domain/dto/ItemDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/service/IItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/service/IItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/service/impl/ItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/service/impl/ItemServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-service/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-service/target/classes/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/target/classes/bootstrap.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-service/target/classes/com/hmall/item/controller/ItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/target/classes/com/hmall/item/controller/ItemController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-service/target/classes/com/hmall/item/controller/SearchController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-service/target/classes/com/hmall/item/domain/dto/ItemDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/target/classes/com/hmall/item/domain/dto/ItemDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-service/target/classes/com/hmall/item/service/IItemService.class" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/target/classes/com/hmall/item/service/IItemService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-service/target/classes/com/hmall/item/service/impl/ItemServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/target/classes/com/hmall/item/service/impl/ItemServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/cart-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/cart-service/spring.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/cart-service/spring.log.2025-09-10.0.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/item-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/item-service/spring.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/item-service/spring.log.2025-09-10.0.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/pay-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/pay-service/spring.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/pay-service/spring.log.2025-09-10.0.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/trade-service/spring.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-09-10.0.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/user-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/user-service/spring.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/user-service/spring.log.2025-09-10.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,17 +77,17 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;JBLSPRINGBOOTAPP.CB_APP_CONFIG&quot;: &quot;true&quot;,
+    &quot;JBLSPRINGBOOTAPP.CB_APP_CONFIG&quot;: &quot;false&quot;,
     &quot;JBLSPRINGBOOTAPP.CB_DELETE_FILE&quot;: &quot;false&quot;,
-    &quot;JBLSPRINGBOOTAPP.CB_FEIGN_CLIENTS&quot;: &quot;false&quot;,
-    &quot;JBLSPRINGBOOTAPP.CB_GEN_PACKAGE&quot;: &quot;false&quot;,
+    &quot;JBLSPRINGBOOTAPP.CB_FEIGN_CLIENTS&quot;: &quot;true&quot;,
+    &quot;JBLSPRINGBOOTAPP.CB_GEN_PACKAGE&quot;: &quot;true&quot;,
     &quot;JBLSPRINGBOOTAPP.CB_MAPPER_SCAN&quot;: &quot;false&quot;,
     &quot;JBLSPRINGBOOTAPP.CB_RESOURCES&quot;: &quot;false&quot;,
     &quot;JBLSPRINGBOOTAPP.CB_START&quot;: &quot;true&quot;,
     &quot;JBLSPRINGBOOTAPP.TF_DELETE_FILE&quot;: &quot;App.java,AppTest.java&quot;,
     &quot;JBLSPRINGBOOTAPP.TF_FEIGN_CLIENTS_PACKAGE&quot;: &quot;com.hmall.api.client&quot;,
-    &quot;JBLSPRINGBOOTAPP.TF_GEN_PACKAGE&quot;: &quot;controller,service,mapper,domain.dto,domain.vo,domain.po&quot;,
-    &quot;JBLSPRINGBOOTAPPGEN.APPNAME&quot;: &quot;com.hmall.gateway.GatewayApplication&quot;,
+    &quot;JBLSPRINGBOOTAPP.TF_GEN_PACKAGE&quot;: &quot;controller,service,mapper,domain.query,domain.vo,domain.po&quot;,
+    &quot;JBLSPRINGBOOTAPPGEN.APPNAME&quot;: &quot;com.hmall.search.SearchApplication&quot;,
     &quot;JUnit.DocumentTest.testCreateIndex.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.DocumentTest.testDeleteDocumentById.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.DocumentTest.testGetDocumentById.executor&quot;: &quot;Run&quot;,
@@ -64,6 +97,15 @@
     &quot;JUnit.IndexTest.testDeleteIndex.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.IndexTest.testExistsIndex.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.IndexTest.testImportItem.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SearchTest.testAggregation.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SearchTest.testBoolQuery.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SearchTest.testHighlight.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SearchTest.testMatch.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SearchTest.testMatchAll.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SearchTest.testMultiMatch.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SearchTest.testPageSizeAndSort.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SearchTest.testRange.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SearchTest.testTerm.executor&quot;: &quot;Run&quot;,
     &quot;Maven.hmall [clean].executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
@@ -76,8 +118,10 @@
     &quot;Spring Boot.GatewayApplication.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.HMallApplication.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.ItemApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.ItemApplication8181.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.ItemApplication2.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ItemApplication8181.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.PayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.SearchApplication.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.TradeApplication.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.UserApplication.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
@@ -130,67 +174,94 @@
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
+    <option name="hiddenConfigurations">
+      <map>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <set>
+              <option value="ItemApplication8181" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="RunManager" selected="JUnit.IndexTest.testImportItem">
-    <configuration name="DocumentTest.testDeleteDocumentById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="item-service" />
+  <component name="RunManager" selected="JUnit.SearchTest.testAggregation">
+    <configuration name="SearchTest.testAggregation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="search-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hmall.item.es.*" />
+          <option name="PATTERN" value="com.hmall.search.es.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.hmall.item.es" />
-      <option name="MAIN_CLASS_NAME" value="com.hmall.item.es.DocumentTest" />
-      <option name="METHOD_NAME" value="testDeleteDocumentById" />
+      <option name="PACKAGE_NAME" value="com.hmall.search.es" />
+      <option name="MAIN_CLASS_NAME" value="com.hmall.search.es.SearchTest" />
+      <option name="METHOD_NAME" value="testAggregation" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DocumentTest.testGetDocumentById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="item-service" />
+    <configuration name="SearchTest.testBoolQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="search-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hmall.item.es.*" />
+          <option name="PATTERN" value="com.hmall.search.es.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.hmall.item.es" />
-      <option name="MAIN_CLASS_NAME" value="com.hmall.item.es.DocumentTest" />
-      <option name="METHOD_NAME" value="testGetDocumentById" />
+      <option name="PACKAGE_NAME" value="com.hmall.search.es" />
+      <option name="MAIN_CLASS_NAME" value="com.hmall.search.es.SearchTest" />
+      <option name="METHOD_NAME" value="testBoolQuery" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DocumentTest.testUpdateDocumentById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="item-service" />
+    <configuration name="SearchTest.testHighlight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="search-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hmall.item.es.*" />
+          <option name="PATTERN" value="com.hmall.search.es.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.hmall.item.es" />
-      <option name="MAIN_CLASS_NAME" value="com.hmall.item.es.DocumentTest" />
-      <option name="METHOD_NAME" value="testUpdateDocumentById" />
+      <option name="PACKAGE_NAME" value="com.hmall.search.es" />
+      <option name="MAIN_CLASS_NAME" value="com.hmall.search.es.SearchTest" />
+      <option name="METHOD_NAME" value="testHighlight" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IndexTest.testImportItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="item-service" />
+    <configuration name="SearchTest.testPageSizeAndSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="search-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hmall.item.es.*" />
+          <option name="PATTERN" value="com.hmall.search.es.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.hmall.item.es" />
-      <option name="MAIN_CLASS_NAME" value="com.hmall.item.es.IndexTest" />
-      <option name="METHOD_NAME" value="testImportItem" />
+      <option name="PACKAGE_NAME" value="com.hmall.search.es" />
+      <option name="MAIN_CLASS_NAME" value="com.hmall.search.es.SearchTest" />
+      <option name="METHOD_NAME" value="testPageSizeAndSort" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchTest.testTerm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="search-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hmall.search.es.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hmall.search.es" />
+      <option name="MAIN_CLASS_NAME" value="com.hmall.search.es.SearchTest" />
+      <option name="METHOD_NAME" value="testTerm" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -211,15 +282,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ItemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="ItemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" value="local" />
       <module name="item-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hmall.item.ItemApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hmall.item.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ItemApplication8181" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="item-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hmall.item.ItemApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8181 -Dspring.application.instance_id=product-8181" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -228,6 +302,14 @@
       <option name="ACTIVE_PROFILES" value="local" />
       <module name="pay-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hmall.pay.PayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" value="local" />
+      <module name="search-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hmall.search.SearchApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -250,11 +332,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ItemApplication" />
-        <item itemvalue="JUnit.IndexTest.testImportItem" />
-        <item itemvalue="JUnit.DocumentTest.testDeleteDocumentById" />
-        <item itemvalue="JUnit.DocumentTest.testUpdateDocumentById" />
-        <item itemvalue="JUnit.DocumentTest.testGetDocumentById" />
+        <item itemvalue="JUnit.SearchTest.testAggregation" />
+        <item itemvalue="JUnit.SearchTest.testHighlight" />
+        <item itemvalue="JUnit.SearchTest.testPageSizeAndSort" />
+        <item itemvalue="JUnit.SearchTest.testBoolQuery" />
+        <item itemvalue="JUnit.SearchTest.testTerm" />
       </list>
     </recent_temporary>
   </component>
@@ -290,7 +372,9 @@
       <workItem from="1757308855663" duration="25733000" />
       <workItem from="1758682774909" duration="455000" />
       <workItem from="1758683244111" duration="6657000" />
-      <workItem from="1758693133056" duration="415000" />
+      <workItem from="1758693133056" duration="29848000" />
+      <workItem from="1758822607341" duration="13333000" />
+      <workItem from="1759189152382" duration="12101000" />
     </task>
     <servers />
   </component>

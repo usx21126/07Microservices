@@ -11,7 +11,7 @@ spring:
         - id: item # 路由规则ID，自定义，唯一
           uri: lb://item-service # 路由的目标服务，lb代表负载均衡，会从注册中心拉取服务列表
           predicates: # 路由断言，判断请求是否符合当前规则，符合则路由到目标服务
-            - Path=/items/**,/search/** # Path为路由断言，判断请求路径是否符合规则
+            - Path=/items/** # Path为路由断言，判断请求路径是否符合规则
         - id: cart
           uri: lb://cart-service
           predicates:
@@ -28,6 +28,10 @@ spring:
           uri: lb://pay-service
           predicates:
             - Path=/pay-orders/**
+        - id: search
+          uri: lb://search-service
+          predicates:
+            - Path=/search/**
       default-filters: # 全局过滤器，对所有路由生效
 #        - PrintAny=1,2,3
       #  - AddRequestHeader=testStr,tokenValue given by itcast global filter # 添加请求头

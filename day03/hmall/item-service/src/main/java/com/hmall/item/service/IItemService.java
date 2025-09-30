@@ -25,4 +25,6 @@ public interface IItemService extends IService<Item> {
     List<ItemDTO> queryItemByIds(Collection<Long> ids);
 
     PageDTO<ItemDTO> search(ItemPageQuery query);
+
+    void updateStatus(Long id, Integer status);
 }

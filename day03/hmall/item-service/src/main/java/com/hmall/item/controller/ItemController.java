@@ -60,10 +60,11 @@ public class ItemController {
     @ApiOperation("更新商品状态")
     @PutMapping("/status/{id}/{status}")
     public void updateItemStatus(@PathVariable("id") Long id, @PathVariable("status") Integer status){
-        Item item = new Item();
-        item.setId(id);
-        item.setStatus(status);
-        itemService.updateById(item);
+//        Item item = new Item();
+//        item.setId(id);
+//        item.setStatus(status);
+//        itemService.updateById(item);
+        itemService.updateStatus(id, status);
     }
 
     @ApiOperation("更新商品")

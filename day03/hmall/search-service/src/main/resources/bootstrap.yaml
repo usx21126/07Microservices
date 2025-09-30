@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: search-service
+  cloud:
+    nacos:
+      server-addr: 192.168.12.168:8848
+      config:
+        file-extension: yaml #配置的扩展名
+        shared-configs: #共享配置信息
+          - data-id: shared-log.yaml
+          - data-id: shared-swagger.yaml
+          - data-id: shared-mq.yaml # 共享mq配置

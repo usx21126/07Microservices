@@ -4,6 +4,7 @@ import cn.hutool.core.util.StrUtil;
 import com.baomidou.mybatisplus.extension.conditions.query.LambdaQueryChainWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.hmall.common.constants.MqConstants;
 import com.hmall.common.domain.PageDTO;
 import com.hmall.common.exception.BizIllegalException;
 import com.hmall.common.utils.BeanUtils;
@@ -13,6 +14,8 @@ import com.hmall.item.domain.po.Item;
 import com.hmall.item.domain.query.ItemPageQuery;
 import com.hmall.item.mapper.ItemMapper;
 import com.hmall.item.service.IItemService;
+import org.springframework.amqp.rabbit.core.RabbitTemplate;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.Collection;
@@ -27,6 +30,8 @@ import java.util.List;
  */
 @Service
 public class ItemServiceImpl extends ServiceImpl<ItemMapper, Item> implements IItemService {
+    @Autowired
+    private RabbitTemplate rabbitTemplate;
 
     @Override
     public void deductStock(List<OrderDetailDTO> items) {
@@ -76,4 +81,16 @@ public class ItemServiceImpl extends ServiceImpl<ItemMapper, Item> implements II
         return PageDTO.of(itemPage, ItemDTO.class);
     }
 
+    @Override
+    public void updateStatus(Long id, Integer status) {
+        Item item = new Item();
+        item.setId(id);
+        item.setStatus(status);
+        updateById(item);
+
+        //1为上架，其它为下架
+        String routingKey = status == 1 ? MqConstants.ITEM_UP_KEY : MqConstants.ITEM_DOWN_KEY;
+        //发送消息
+        rabbitTemplate.convertAndSend(MqConstants.ITEM_EXCHANGE_NAME, routingKey, id);
+    }
 }

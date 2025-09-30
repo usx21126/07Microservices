@@ -25,6 +25,12 @@ public class ItemClientFallback implements FallbackFactory<ItemClient> {
                 log.error("商品服务调用失败 -> 具体参数为：{}",items );
                 throw new RuntimeException("商品服务调用失败");
             }
+
+            @Override
+            public ItemDTO queryItemById(Long id) {
+                log.error("远程调用ItemClient.queryItemById失败,参数：{}",id,cause);
+                return null;
+            }
         };
     }
 }
